@@ -2,31 +2,6 @@ import sys
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
-from PyQt5.QtWidgets import (
-    QApplication,
-    QMainWindow,
-    QWidget,
-    QVBoxLayout,
-    QHBoxLayout,
-    QPushButton,
-    QLabel,
-    QLineEdit,
-    QListWidget,
-    QMessageBox,
-    QComboBox,
-    QDateEdit,
-    QDialog,
-    QFormLayout,
-    QDialogButtonBox,
-    QTextEdit,
-    QGridLayout,
-    QFileDialog,
-    QTableView,
-    QListWidgetItem,
-    QSpinBox
-)
-from PyQt5.QtGui import QFont, QIcon, QPalette, QColor
-from PyQt5.QtCore import Qt, QDate, QSettings
 import json
 import os
 import shutil
